@@ -1,6 +1,6 @@
 body {
-	min-width:1300px;
-	width:1300px;
+	min-width:1310px;
+	width:1310px;
 	height: 664px;
 	font-family:arial;
 	font-size:12px;
@@ -21,8 +21,8 @@ body {
 
 /* HEXAGON STARTS HERE */
 .hex {
-	width: 10.2%;
-	height: 10.7%;
+	width: 9.92%;
+	height: 10.4%;
 	background-color: #ccc;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -35,11 +35,12 @@ body {
 	margin:25px 5px;
 	text-align:center;
 	zoom:1;
+	border-left: 2px solid #2C4E93;
+	border-right: 2px solid #2C4E93;
 }
 
 .hex.hex-gap {
 	margin-left: 7%;
-	background-color: #8b8989
 }
 
 .hex .corner-1,
@@ -57,6 +58,8 @@ body {
 	-ms-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	backface-visibility: hidden;
+	border-left: 1.5px solid #2C4E93;
+	border-right: 1.5px solid #2C4E93;
 }
 
 .hex .corner-1 {
@@ -129,7 +132,7 @@ body {
 }
 
 .hex p {
-	width:80%;
+	width:90%;
 	margin:1px auto;
 	font-style: italic;
 }
@@ -148,4 +151,24 @@ body {
 
 .be.level2 {
 	background-color: #EFAD81
+}
+
+.inspire.level1 {
+	background-color: #98B819
+}
+
+.inspire.level2 {
+	background-color: #B8CC72
+}
+
+.relate.level1 {
+	background-color: #202B6D
+}
+
+.relate.level2 {
+	background-color: #00A7CE
+}
+
+.think.level2 .inner, .be.level2 .inner, .inspire.level2 .inner, .relate.level2 .inner {
+	color: black;
 }
