@@ -1,5 +1,7 @@
 body {
-	min-width:1250px;
+	min-width:1300px;
+	width:1300px;
+	height: 664px;
 	font-family:arial;
 	font-size:12px;
 	background: #f6f7f0;
@@ -20,7 +22,7 @@ body {
 /* HEXAGON STARTS HERE */
 .hex {
 	width: 10.2%;
-	height: 10.5%;
+	height: 10.7%;
 	background-color: #ccc;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -128,6 +130,22 @@ body {
 
 .hex p {
 	width:80%;
-	margin:3px auto;
+	margin:1px auto;
 	font-style: italic;
+}
+
+.think.level1 {
+	background-color: #DE2F58
+}
+
+.think.level2 {
+	background-color: #E38CA8
+}
+
+.be.level1 {
+	background-color: #F5700B
+}
+
+.be.level2 {
+	background-color: #EFAD81
 }
